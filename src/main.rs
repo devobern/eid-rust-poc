@@ -7,6 +7,12 @@ use sha2::{Digest, Sha256};
 #[macro_use]
 extern crate serde_json;
 
+// DISCLAIMER:
+// This code is a Proof of Concept (PoC) of using the Rust BBS Implementation.
+// It is intended for learning and understanding how the BBS library works.
+// This code SHOULD NOT be used in any production environment as it is not secure or efficient.
+// Use at your own risk.
+
 fn main() {
     // Specify the number of messages the keys should be able to sign
     let message_count = 5;
