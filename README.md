@@ -1,5 +1,8 @@
 # BBS Rust Library PoC for Open Legal Lab 2024
 
+![Diagram of BBS in context of eID](BBS_Diagram.png)
+
+
 ## Overview
 
 This repository hosts a Proof of Concept (PoC) developed during the Open Legal Lab 2024 Hackathon. This PoC was created by participants to better understand the practical aspects of the BBS library in a learning environment.
