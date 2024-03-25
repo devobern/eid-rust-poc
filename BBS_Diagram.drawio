@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T12:10:30.309Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="EeHPEFxo868rWVo0-Bpj" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T12:26:59.645Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="MfxcP7y9uHaz8MaiRJEc" version="22.1.16" type="github">
   <diagram name="Page-1" id="e6cHh2dv8o8fhtoeDSMc">
-    <mxGraphModel dx="1002" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="835" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,16 +32,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MmKHfEbkj5cxw5pEG6I7-15" value="Not implemented in PoC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#9a9996;strokeColor=#9a9996;fontSize=18;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="870" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="MmKHfEbkj5cxw5pEG6I7-16" value="" style="group;fontSize=18;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1000" y="440" width="620" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="MmKHfEbkj5cxw5pEG6I7-12" value="&lt;div class=&quot;flex flex-grow flex-col max-w-full&quot;&gt;&lt;div class=&quot;min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;amp;]:mt-5 overflow-x-auto&quot; data-message-id=&quot;148a7e37-84b7-42a0-83a8-3fac86d2a899&quot; data-message-author-role=&quot;assistant&quot;&gt;&lt;div class=&quot;markdown prose w-full break-words dark:prose-invert dark&quot;&gt;&lt;p&gt;A site that requires visitor verification.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=bottom;fontStyle=1;fontSize=18;fillColor=#deddda;" vertex="1" parent="MmKHfEbkj5cxw5pEG6I7-16">
-          <mxGeometry width="620" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="MmKHfEbkj5cxw5pEG6I7-6" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u style=&quot;font-size: 18px;&quot;&gt;Verifier&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Verification process:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;7. Requests verification from the holder.&lt;/div&gt;9. Verifies the signature using the public key from the registry." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=18;" vertex="1" parent="MmKHfEbkj5cxw5pEG6I7-16">
-          <mxGeometry x="98.63636363636364" y="63.4090909090909" width="331.1363636363636" height="183.18181818181816" as="geometry" />
+          <mxGeometry x="40" y="870" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MmKHfEbkj5cxw5pEG6I7-10" value="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;fontSize=18;strokeWidth=2;" edge="1" parent="1" source="MmKHfEbkj5cxw5pEG6I7-6" target="MmKHfEbkj5cxw5pEG6I7-1">
           <mxGeometry x="0.2344" y="80" relative="1" as="geometry">
@@ -62,6 +53,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1220" y="690" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1020" y="450" width="520" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-12" value="&lt;div class=&quot;flex flex-grow flex-col max-w-full&quot;&gt;&lt;div class=&quot;min-h-[20px] text-message flex flex-col items-start gap-3 whitespace-pre-wrap break-words [.text-message+&amp;amp;]:mt-5 overflow-x-auto&quot; data-message-id=&quot;148a7e37-84b7-42a0-83a8-3fac86d2a899&quot; data-message-author-role=&quot;assistant&quot;&gt;&lt;div class=&quot;markdown prose w-full break-words dark:prose-invert dark&quot;&gt;&lt;p&gt;A site that requires visitor verification.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=bottom;fontStyle=1;fontSize=18;fillColor=#deddda;" vertex="1" parent="MmKHfEbkj5cxw5pEG6I7-20">
+          <mxGeometry width="520" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-6" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u style=&quot;font-size: 18px;&quot;&gt;Verifier&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Verification process:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;7. Requests verification from the holder.&lt;/div&gt;9. Verifies the signature using the public key from the registry." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=18;" vertex="1" parent="MmKHfEbkj5cxw5pEG6I7-20">
+          <mxGeometry x="19.99636363636364" y="29.99909090909091" width="331.1363636363636" height="183.18181818181816" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
