@@ -1,9 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T10:36:47.742Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" version="22.1.16" etag="mpbM9gBBbcNa-L5XUKln" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T11:00:31.193Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="IFAH1fpZAgEPqjdfnzOw" version="22.1.16" type="github">
   <diagram name="Page-1" id="e6cHh2dv8o8fhtoeDSMc">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-12" value="&lt;div&gt;Some site which needs to verify visitors&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=bottom;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="430" width="440" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-8" value="Requests eID from issuer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="MmKHfEbkj5cxw5pEG6I7-1" target="MmKHfEbkj5cxw5pEG6I7-2">
+          <mxGeometry x="-0.3208" y="73" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-1" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;Holder&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Initial eID Creation:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Creates a commitment using a password (Pedersen-Commitment)&lt;/div&gt;&lt;div&gt;2. Sends commit to issuer&lt;/div&gt;&lt;div&gt;4. Saves eID in wallet on device&lt;/div&gt;&lt;div&gt;5. Verifies signature by registry&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Verification process:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;6. Visites site&lt;br&gt;&lt;/div&gt;&lt;div&gt;8. Generates proof for requested data and sends the proof and data to the verifier&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="365" y="200" width="285" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-7" value="Sends eID to holder" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="MmKHfEbkj5cxw5pEG6I7-2" target="MmKHfEbkj5cxw5pEG6I7-1">
+          <mxGeometry x="-0.2796" y="-45" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-2" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Issuer&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Initial eID Creation:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. Creates eID and makes a blind signature&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="480" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-4" value="Registry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-10" value="7. Asks for verification" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="MmKHfEbkj5cxw5pEG6I7-6" target="MmKHfEbkj5cxw5pEG6I7-1">
+          <mxGeometry x="0.0943" y="48" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-6" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;u&gt;Verifier&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;9.Verifies signature with the public key from the registry" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="770" y="475" width="235" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MmKHfEbkj5cxw5pEG6I7-9" value="&lt;div&gt;6, 8&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="MmKHfEbkj5cxw5pEG6I7-1" target="MmKHfEbkj5cxw5pEG6I7-6">
+          <mxGeometry x="-0.3601" y="-37" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
